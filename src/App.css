@@ -1,28 +1,52 @@
-.App {
-  text-align: center;
+body {
+   background: linear-gradient(to right, rgba(13, 58, 220, 0.65), rgba(0,0,0,1));
+  margin: 30px;
+  padding: 0;
+  font-family:monospace;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+p{
+  font-family:monospace;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+h1 {
+  font-family:monospace;
+  color: white;
+  text-align: center;
+  font-size: 70px;
 }
 
-.App-intro {
-  font-size: large;
+h2 {
+  font-family:monospace;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+a{
+  font-family:monospace;
+  color: white;
+}
+
+li {
+  color: white;
+  padding-bottom: 30px;
+  font-size: 25px;
+  list-style-position: inside;
+}
+
+ol {
+color: white;
+  float: right;
+}
+
+.song-details{
+  float: left;
+  display: grid;
+  grid-auto-flow: row;
+  width: auto;
+}
+
+audio{
+  align-items: center;
+  width: 250px;
 }
